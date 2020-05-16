@@ -82957,10 +82957,6 @@
 /obj/effect/landmark/blobstart,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"wKo" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/closed/wall,
-/area/science/circuit)
 "wOE" = (
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -118778,7 +118774,7 @@ lal
 ygk
 sdi
 fDD
-wKo
+krD
 czD
 cQC
 cBH
