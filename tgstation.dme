@@ -2351,6 +2351,7 @@
 #include "code\modules\jobs\loadout_ingame.dm"
 #include "code\modules\jobs\job_types\_job.dm"
 #include "code\modules\jobs\job_types\bos.dm"
+#include "code\modules\jobs\job_types\children_atom.dm"
 #include "code\modules\jobs\job_types\den.dm"
 #include "code\modules\jobs\job_types\followers.dm"
 #include "code\modules\jobs\job_types\legion.dm"
