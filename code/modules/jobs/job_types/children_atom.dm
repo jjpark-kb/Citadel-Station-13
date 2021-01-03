@@ -118,11 +118,11 @@
 	total_positions = 3
 	spawn_positions = 3
 
-/datum/job/children_atom/acolyte
-	title = "Acolyte"
-	flag = F13ACOLYTE
+/datum/job/children_atom/child_atom
+	title = "Child of Atom"
+	flag = F13CHILDATOM
 
-	display_order = JOB_DISPLAY_ORDER_ACOLYTE
+	display_order = JOB_DISPLAY_ORDER_CHILDATOM
 
 	supervisors = "Atom and the Confessors"
 	description = "You are a follower of Atom. Follow the objectives that Atom has set forth."
