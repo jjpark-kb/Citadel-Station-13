@@ -120,7 +120,7 @@
 	S.add_blood_DNA(return_blood_DNA())
 
 //aphrodisiac & anaphrodisiac
-
+/*
 /datum/reagent/drug/aphrodisiac
 	name = "Crocin"
 	id = "aphro"
@@ -265,3 +265,4 @@
 	required_reagents = list(/datum/reagent/anaphro = 5, /datum/reagent/acetone = 1)
 	required_temp = 300
 	mix_message = "The mixture thickens and heats up slighty..."
+*/
