@@ -172,7 +172,7 @@
 		S.color = "#810010"
 	my_atom.reagents.clear_reagents()
 	my_atom.visible_message("<span class='warning'>An horrifying tumoural mass forms in [my_atom]!</span>")
-
+/*
 /datum/chemical_reaction/fermi/breast_enlarger
 	name = "Sucubus milk"
 	id = /datum/reagent/fermi/breast_enlarger
@@ -252,7 +252,6 @@
 		holder.remove_reagent(type, cached_volume)
 		holder.add_reagent(/datum/reagent/fermi/PEsmaller, cached_volume)
 
-/*
 /datum/chemical_reaction/fermi/astral
 	name = "Astrogen"
 	id = /datum/reagent/fermi/astral
@@ -274,7 +273,6 @@
 	FermiChem				= TRUE
 	FermiExplode 			= TRUE
 	PurityMin 				= 0.25
-*/
 
 /datum/chemical_reaction/fermi/enthrall //check this
 	name = "MKUltra"
@@ -346,7 +344,7 @@
 /datum/chemical_reaction/fermi/enthrall/FermiExplode(datum/reagents/R0, var/atom/my_atom, volume, temp, pH)
 	R0.clear_reagents()
 	..()
-
+*/
 /datum/chemical_reaction/fermi/hatmium // done
 	name = "Hat growth serum"
 	id = /datum/reagent/fermi/hatmium
@@ -379,7 +377,7 @@
 		hat.animate_atom_living()
 	my_atom.visible_message("<span class='warning'>The [my_atom] makes an off sounding pop, as a hat suddenly climbs out of it!</b></span>")
 	my_atom.reagents.clear_reagents()
-
+/*
 /datum/chemical_reaction/fermi/furranium
 	name = "Furranium"
 	id = /datum/reagent/fermi/furranium
@@ -401,7 +399,7 @@
 	RateUpLim 		= 2
 	FermiChem 		= TRUE
 	PurityMin		= 0.3
-
+*/
 //FOR INSTANT REACTIONS - DO NOT MULTIPLY LIMIT BY 10.
 //There's a weird rounding error or something ugh.
 
@@ -475,7 +473,7 @@
 	HIonRelease 	= 0.01
 	RateUpLim 		= 15
 	FermiChem 		= TRUE
-
+/*
 /datum/chemical_reaction/fermi/plushmium // done
 	name = "Plushification serum"
 	id = /datum/reagent/fermi/plushmium
@@ -567,7 +565,7 @@
 	catto.desc = "A cute chem cat, created by a lot of compicated and confusing chemistry!"
 	catto.color = "#770000"
 	my_atom.reagents.remove_all(5)
-
+*/
 /datum/chemical_reaction/fermi/yamerol//done test
 	name = "Yamerol"
 	id = /datum/reagent/fermi/yamerol
